@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+  font-style: normal;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+.omelette-image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+ul,li,table,p{
+     font-family: "Outfit", sans-serif;
+     font-weight: 400;
+}
+.preperation-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.preperation-time > h2 {
+    color:hsl(332, 51%, 32%) ;
+ 
+}
+
+.ingredients > h2 ,.instructions >h2 , .nutrition > h2{
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition th,
+.nutrition td {
+  padding: 12px 8px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.nutrition th {
+  color: #666;
+  font-weight: 600;
+}
+
+.nutrition td {
+  color: hsl(332, 51%, 32%);
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.nutrition tr:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
